@@ -1,0 +1,118 @@
+.,English
+quest.name,05. Rotten in Hommlet
+quest.authors,Scytale
+quest.synopsys,Something is rotten in the town of Hommlet.
+EventHeroes.text,Place Heroes anywhere on the stairs down from the inn's second floor.
+EventHeroes.button1,Continue
+SpawnCultists.button1,Continue
+SpawnShades.button1,Continue
+DoorEntrance.text,The stone door to the temple is closed.
+SpawnHounds.button1,Continue
+TokenMarkerSmithy.button1,Continue
+UITavern.button1,Awaken!
+EventGameStart.button1,Continue
+EventPlaceTiles.text,Set aside tiles 14, 23, 32, 38, 50, 56, 57, 60, 63, 70, .In addition, 2 entries, 5 stone ends and 2 forest ends.\n\nBuild the map as shown.
+EventPlaceTiles.button1,Continue
+EventHighlightSmithy.button1,Continue
+EventHighlightSmithy.text,The town's smithy has a black and smokey interior. Whilst normally dealing with horses and farm implements, the smith can also sharpen blades and repair some armors.
+DoorChurch.button1,Open
+TokenMarkerSmithy.text,The general store.
+TokenMarkerGatehouse.text,The gatehouse to the main road.
+TokenMarkerLibrary.text,This is the town's library. The books are old, rotten from damp, though look like they see little use.
+TokenMarkerLibrary.button1,Continue
+EventHighlightInn.text,This is the town's inn. \nYou hear quiet sounds of panic from innkeeper coming from behind the bar.
+TokenMarkerInn.button1,Continue
+TokenTownGate.text,The town's gate is a set of simple, crude iron-bolted double  gates that can be closed from the inside with a heavy wooden bar. The gates currently stand open.\n\nAs an action, a hero adjacent to the space may test {awareness} to investigate the gate.
+TokenTownGate.button1,Success
+TokenMarkerChurch.button1,Continue
+TokenMarkerChurch.text,The is the town's church is a simple but clean affair. One of the few building built from stone rather than wood.
+TokenVillagerScribe.button1,Talk
+TokenVillagerGatekeeper.text,The Gatekeeper can be found hiding in a cupboard in the gatehouse.\n\nAs an action, a nearby hero can talk to him.
+TokenVillagerGatekeeper.button1,Talk
+DoorSmithy.text,A solid stout door is the entrance to the smithy.
+DoorEntrance.button1,Open
+EventHighlightLibrary.button1,Continue
+EventHighlightLibrary.text,The library is dark and damp with many of the scrolls falling to pieces from neglect.\nThe scribe is more than likely hiding under her desk.
+TokenMarkerGatehouse.button1,Success
+SpawnSorcerers.button1,Continue
+DoorSmithy.button1,Open
+EventDefeatCultists.text,With the cultists dead, perhaps it worth searching their remains.\n\nPlace 5 Search tokens on the map.
+DoorSmithyLocked.button1,Continue
+EventOpenSmithy.button1,Continue
+SpawnSorcerers.text,A group of sorcerers dressed in blue come solemnly through the gates. Their chanting stirs the air and a cold wind run through the town.\n\nThey are clearly looking for new victims to replace the ones you rescued.\n\nPlace a {type} group on the indicated space.
+TokenMarkerGatehouse.button2,Failure
+EventHighlightChurch.button1,Continue
+EventHighlightChurch.text,The town's church is one of the few buildings built of stone. You saw the priest in there earlier in the day.
+DoorSmithyLocked.text,A sturdy, ironbound door locks the smith's storeroom.
+SpawnHounds.text,A group of deformed hounds are charging through the village.\n\nPlace a {type} group on the indicated space.
+EventRound5.button1,Button1
+TokenSearchLibrary.button1,Search
+SpawnPriest.button1,Continue
+SpawnPriest.uniquetext,-
+EventObjective.text,Objective: \n1. Defend the town. \n2. Find out how they entered the town.
+EventObjective.button1,Continue
+DoorChurch.text,An old door leads deeper into the crypts
+EventHighlightGatehouse.button1,Continue
+EventHighlightGatehouse.text,A sturdy gatehouse leads out onto the main road out of the town. At night is closed to protect the town.\n\nIf something got into the town, it must have somehow got through or past the gatehouse.
+TokenVillagerPriest.text,The town priest can be found standing in the church.\n\nAs an action, a nearby hero can talk to him.
+TokenVillagerScribe.text,The village scribe is hiding at the back of the library and seems that the cultists have paid her little attention.\n\nAs an action, a nearby hero can talk to her.
+EventGameStart.text,ROTTEN IN HOMMLET\n\nIt is early the next morning, just as the mists are clearing but before the town has come to life, that you hear shouts of alarm. \n\nYou grab your equipment and head downstairs into inn.
+TokenVillagerPriest.button1,Talk
+TokenMarkerInn.text,The inn is a loud, smokey affair with watery ale. Your rooms upstairs are damp though provide a bed for the night.
+EventHighlightInn.button1,Continue
+TokenTownGate.button2,Failure
+EventActionInvestigate.text,The gate appears to have been opened from the inside. There is no sign of any force or magic, so it must have been one of the townsfolk!\n\n\nPlace 5 villager tokens on the map.
+EventActionInvestigate.button1,Continue
+EventObjective2.text,Objective: Find who opened the gate.
+EventObjective2.button1,Continue
+SpawnCultists.text,A group of cultists have made it into the town.\n\nPlace {var:#heroes} {type}s onto the indicated spaces.
+EventRound3.button1,Button1
+TokenSearchLibrary.text,Maybe something of worth can found in the old book shelves.
+SpawnShades.text,Following the sorcerers, on the chilled wind, float in a group of air elementals.\n\nPlace a {type} group on the indicated space.
+SpawnPriest.uniquetitle,Air Cultist
+EventTalkGatekeeper.button1,Continue
+EventTalkGatekeeper.text,The Gatekeeper says that he was with the other guards, which the other guards can atest to, doing his regular morning round. \n\nSomeone else must have opened the gate.
+TokenVillagerSmith.text,The smith is standing strong, with a large iron hammer in his hand, waiting for the first cultist to enter.\n\nAs an action, a nearby hero can talk to him.
+TokenVillagerSmith.button1,Talk
+SpawnAirSpirits.text,Evil spirits of the air form into shape around the corners of the church.\n\nPlace a {type} at each location.
+EventTalkSmith.text,The Smith swears that he was speaking to the Innkeeper first thing, which the Innkeeper could atest to.
+EventTalkSmith.button1,Continue
+TokenVillagerInnkeeper.text,The Innkeeper can be found cowering behind his bar.\n\nAs an action, a nearby hero can talk to him.
+TokenVillagerInnkeeper.button1,Talk
+EventTalkPriest.button1,Continue
+EventTalkInnkeeper.text,The Innkeeper swears that he was speaking to the smith first thing, as the smith likes a little drink in the morning.\nThe cook at the inn can atest to this, as he had joined them.
+EventTalkInnkeeper.button1,Continue
+EventTalkScribe.text,The scribe says she was in the market first thing, talking to several stall owners, before opening the library for the day. It seems a plausible alibi.
+EventTalkScribe.button1,Continue
+EventTalkPriest.text,As you start to talk to the priest, you realise that his face is hidden inside his hood. As you step closer to take a look, you realise that his face is disfigured and his speech is harsh.\n\nThis is not the village priest!
+SpawnPriest.text,With a terrible scream, the priest throws back his robes to reveal his deformed shape. A chant had obviously been waiting on his lips, that he now quickly speaks.\n\nPlace an elite {type} at this location.
+SpawnAirSpirits.button1,Continue
+EventObjective3.text,Objective: Defeat the spy.
+EventObjective3.button1,Continue
+TokenSearchGatehouse.text,Maybe something of useful can found in the Gatehouse.
+TokenSearchGatehouse.button1,Search
+EventActionSearchLibrary.button1,Continue
+TokenSearchMarket.text,In the chaos of the attack, maybe the cultists left something behind.
+TokenSearchMarket.button1,Search
+EventDefeatCultists.button1,Continue
+EventGameEnd.button1,End
+TokenSearchChurch.text,In the chaos of the attack, maybe the cultists left something behind.
+TokenSearchChurch.button1,Continue
+TokenSearchTownCenter.text,In the chaos of the attack, maybe the cultists left something behind.
+TokenSearchTownCenter.button1,Search
+EventActionSearchLibrary.text,You find some old scrolls that you can sell at the market for 15g. Not that anyone here will notice they have gone missing.
+EventActionSearchGatehouse.text,You find a Health Potion & Stamina Potion gathering dust on the shelves. The Gatekeeper seems to have never needed this, so you can certainly take them.\n\nDraw a Health Potion & Stamina Potion from the Search cards.
+EventActionSearchGatehouse.button1,Continue
+EventActionSearchTownCenter.text,You look through the possessions of the cultists.\n\nDraw a Search card. Note, draw again if you receive Teasure Chest.
+EventActionSearchTownCenter.button1,Continue
+EventActionSearchChurch.text,You look through the possessions of the cultists.\n\nDraw a Search card.
+EventActionSearchChurch.button1,Continue
+EventActionSearchMarket.button1,Continue
+EventActionSearchMarket.text,You search through the chaos, looking for something of interest.\n\nDraw a Search card.
+quest.description,Something is rotten in the town of Hommlet.
+EventGameEliminated.button1,Button1
+EventGameFailed.text,You have been defeated.
+EventGameFailed.button1,Continue
+EventGameNoMorale.button1,Button1
+EventDefeatSpy.button1,Button1
+EventGameEnd.text,As the leader of the Cultists of the Wind falls to the ground,  any remaining cultists flee and elementals vanish.\n\nYou have saved the town.

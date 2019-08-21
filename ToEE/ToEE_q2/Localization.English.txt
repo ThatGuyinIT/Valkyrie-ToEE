@@ -1,0 +1,15 @@
+.,English
+quest.name,02. Interlude
+quest.description,A short interlude after escaping from the cultists.
+quest.authors,Scytale
+EventXP.button1,Continue
+EventGameStart.button1,Continue
+EventXP.text,All heroes receive 1 XP.\n\nHealth and Endurance for all heroes is restored to full. Any equipment may be freely swapped between heroes.\n\nSelect the marker when ready.
+EventGameStart.text,AN INTERLUDE\n\nAfter putting some distance between yourself and the temple, you decide to rest and make camp for the night.\n\nThough you keep the camp fire small, the villagers find you and join you for the night.
+EventLore.text,Whilst you may have found your way clear of the of the strangely dressed cultists, in speaking to the villagers you discover that you are not the only one to have suffered at the hands of these maniacs. The villagers say that there were two another prisoners held in the lower cells. \n\nYou agree to head back to the temple in the morning to free the remaining prisoners. 
+TokenExit.text,Are you ready to head back to the temple?
+TokenExit.button1,Yes
+EventLore.button1,Continue
+EventTravel.button1,Next quest
+EventTravel.text,As the sun rises, you head back ...
+quest.synopsys,A short interlude after escaping from the cultists.

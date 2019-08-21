@@ -1,0 +1,142 @@
+.,English
+quest.name,03. Rescue the Townsfolk
+quest.authors,Scytale
+quest.synopsys,Free the remaining townsfolk from the cultists.
+EventHeroes.text,Place Heroes anywhere on the entry tile.
+EventHeroes.button1,Continue
+DoorWizards.button1,Open
+SpawnEntranceGuards.text,A group of guards are sitting inside the entrance.\n\nPlace a {type} group on the indicated space.
+SpawnMotherSpider.uniquetext,-
+DoorEntrance.text,The stone door to the temple is closed.
+SpawnWizards.text,A group of deformed cultists dance around the circle inscribed with runes of power.\n\nPlace a {type} group on the indicated space.
+SpawnWizards.button1,Continue
+DoorWizards.text,Flames can be seen flickering underneath this wooden door.
+EventGameStart.text,RESCUE THE TOWNSFOLK\n\nAs you come to the end of the forest trail, you finally get a good look at the place you escaped.\n\nDeep in the forest, the ground steadily rises away to form an large rocky hillside. Built into the side of the hill, is the sinister entrance to an ancient temple from a bygone age. Once lost in the trees and forgotten, it has not lost its aura of evil.
+EventGameStart.button1,Continue
+EventBuildMap.button1,Continue
+EventRequiredTiles.text,Set aside tiles 13, 23, 24, 31, 39, 55, 70 and 81.In addition, 1 forest entry, 1 stone entry, 1 transition and 7 ends.\n\nFrom the Search deck, remove the cards None, Secret Room & Treasure Chest.
+EventSecondRoom.button1,Continue
+EventSecondRoom.text,Guards scamble into action as you open the door.
+EventWizards.text,Lay out the map as shown.
+EventWizards.button1,Continue
+DoorRats.text,An old door leads deeper into the temple.
+DoorRats.button1,Open
+EventEntranceGuards.text,The entrance to the temple is now closed with a stone door.
+TokenAltar.text,The summoning circle is enscribed with a number of runes of power.\nTest {knowledge} or {awareness} to see if you can use them.
+TokenAltar.button2,Fail
+DoorArcane.text,This door is locked with some arcane magic.
+TokenGoldEntrance.text,Junk and debris lie piled up on the floor.
+TokenGoldCells2.text,Bones, clothes, junk and debris lie scattered around the cell.
+TokenGoldEntrance.button1,Search
+EventGoldSearchEntrance.text,Looking through the junk, you find a purse containing 15 gold.\n\nYou make take a Seach card at random.\nRemove the marker.
+EventSearchTemple1.text,You find something of interest in the debris.\n\nKeep taking a random Market Card until you draw one of 75g or less value.
+TokenGoldCells1.button1,Search
+EventGoldSearchCells2.text,Looking through the debris, you find trinkets worth about 15 gold.\n\nRemove the marker.
+EventGoldSearchCells1.text,Looking through the debris, you find trinkets worth about 15 gold.\n\nRemove the marker.
+EventSearchTemple1.button1,Continue
+TokenGoldCells1.text,Bones, clothes, junk and debris lie scattered around the cell.
+TokenTrap.text,A loose stone could hide something underneath.
+EventGoldSearchCells2.button1,Continue
+TokenGoldCells2.button1,Search
+EventGoldSearchCells1.button1,Continue
+TokenVillagerMan.text,A villager is being held in this cell and needs to be escorted to safety.\nAs an action, you may place the villager under your protection.
+TokenVillagerMan.button1,Escort
+TokenVillagerWoman.text,A villager is being held in this cell and needs to be escorted to safety.\nAs an action, you may place the villager under your protection.
+TokenVillagerWoman.button1,Escort
+SpawnElite.uniquetext,A cultist commands the guards at the entrance.
+SpawnElite.uniquetitle,GuardCaptain
+EventEntranceGuards.button1,Continue
+DoorSealed.button1,Continue
+DoorSealed.text,The door to the large cell is boarded up.
+SpawnElite.text,A cultist commands the guards at the entrance.\n\nPlace an elite {type} on the indicated space.
+SpawnElite.button1,Continue
+DoorEntrance.button1,Open
+EventBurn.text,The runes flare brightly burning your hand.\nLose 1{heart}.
+EventBurn.button1,Continue
+TokenAltar.button1,Pass
+EventRevealSecret.text,The runes glow brightly revealing similar runes etched in the north and south walls.
+EventRevealSecret.button1,Continue
+DoorArcane.button1,Open
+DoorSecret1.text,Runes glow on the north wall and outline a door.\nTest {awareness} or {knowledge} to open it.
+DoorSecret1.button1,Pass
+DoorSecret1.button2,Fail
+EventSecretRoom1.text,The wall slides to one side revealing a room behind it, filled with magical light.
+EventSecretRoom1.button1,Continue
+SpawnGolem1.uniquetitle,Golem
+TokenLever1.button1,Pass
+SpawnGolem1.text,A mechanical golem stands in this room and comes to life as the door opens.
+TokenLever1.button2,Fail
+TokenLever2.text,A large metal lever sits in the ground.\nUse {might} or {awareness} to shift it.
+EventLever1.button1,Continue
+SpawnGolem2.text,A mechanical golem stands in the corner and comes to life as the door opens.
+EventLever1.text,One half of the lock to the sealed door opens.
+DoorSecret2.text,Runes glow on the north wall and outline a door.\nTest {awareness} or {knowledge} to open it.
+SpawnGolem2.button1,Continue
+DoorSecret2.button1,Pass
+DoorSecret2.button2,Fail
+EventSecretRoom2.text,The wall slides to one side revealing a room behind it, filled with magical light.
+EventSecretRoom2.button1,Continue
+SpawnGolem2.uniquetext,-
+SpawnGolem1.button1,Continue
+SpawnGolem2.uniquetitle,Golem
+SpawnGolem1.uniquetext,A summon and bound elemental. It looks none too happy about this.
+TokenLever2.button1,Pass
+TokenLever2.button2,Fail
+EventLever2.text,One half of the lock to the sealed door opens.
+TokenLever1.text,A large metal lever sits in the ground.\nUse {might} or {awareness} to shift it.
+EventLever2.button1,Continue
+EventSealedDoorUnlocked.button1,Continue
+EventSealedDoorUnlocked.text,With both sets of locks undone, the magic surrounding the door fades. It can probably now be opened.
+DoorStairsDoor1.button1,Continue
+DoorStairsDoor2.button1,Continue
+DoorStairsDoor1.text,An ironbound door bars further exploration.
+DoorStairsDoor2.text,An ironbound door bars further exploration.
+DoorCellDoor.button1,Pass
+DoorCellDoor.button2,Fail
+SpawnEntranceGuards.button1,Continue
+EventCellDoor.text,The cell door is open.
+EventCellDoor.button1,Continue
+DoorCellDoor.text,A rusty iron cell door is locked and bars you way. On the other side you can see the two townsfolk.\n\nTest {might} to break it down, or {awareness} to pick the lock.
+SpawnMotherSpider.text,In the distance, the sound of heavy citinous feet can be heard.\n\nPlace an elite {type} on this location.
+SpawnMotherSpider.button1,Continue
+EventGameEnd.text,You have successfully found the two villagers still being held in the temple, and placed them under your protection. \n\nFrom here it is simple to escape back out into the forest.
+SpawnMotherSpider.uniquetitle,MotherSpider
+EventGameEnd.button1,End
+EventRevealCells.button1,Continue
+EventRevealCells.text,The door opens to reveal stairs leading deeper into the hills. As you discuss which way to go, your voices carry down the corridors. Suddenly you hear a cry for help from the left hand stairs, someone must have heard you.
+SpawnSpiders.text,Cobwebs hang thickly across the stairs and corridors.\n\nPlace a {type} group at this location.
+SpawnSpiders.button1,Continue
+EventObjective.text,Objective: Find and free the villagers.
+EventObjective.button1,Continue
+TokenTrap.button1,Search
+EventTrap.text,Moving the stone causes a trap to trigger and arrows fly out of the wall.\nEvery hero within 3 spaces must make a {awareness} test or lose 3{heart} (armor and shield can be used).
+EventTrap.button1,Continue
+TokenGoldGolem1.text,Magical parts for the golem lie on a small table.
+TokenGoldGolem1.button1,Search
+EventGoldSearchGolem1.text,Looking through the parts, you find precious metal pieces worth about 25 gold.\n\nYou make take a Seach card at random.\nRemove the marker.
+EventGoldSearchGolem1.button1,Continue
+TokenGoldGolem2.button1,Search
+EventGoldSearchGolem2.button1,Continue
+TokenGoldGolem2.text,Magical parts for the golem lie on a small table.
+EventGoldSearchEntrance.button1,Continue
+EventGoldSearchGolem2.text,Looking through the parts, you find precious metal pieces worth about 25 gold.\n\nYou make take a Seach card at random.\nRemove the marker.
+quest.description,Free the remaining townsfolk from the cultists.
+EventGameEliminated.button1,Button1
+EventGameFailed.text,You are defeated.\n\nThe cultists throw you back into a dark cell.
+EventGameFailed.button1,End
+EventGameNoMorale.button1,Button1
+EventBuildMap.text,Build the map as shown.
+EventRequiredTiles.button1,Continue
+TokenTokenExit.text,The way out of the temple.\n\nIf all heroes are adjacent, as an action a hero may lead the group out of the temple.
+TokenTokenExit.button1,End
+EventEscortVillagerWoman.button1,Button1
+EventRevealExit.text,Having found the two captured townsfolk, you can now leave the temple.
+EventRevealExit.button1,Continue
+EventEscortVillagerMan.button1,Button1
+EventGameRoundEnd.button1,Button1
+SpawnSingleAirElemental.text,A malevolent air element passes through the door.\n\nPlace a single {wraith} on the indicated space.
+SpawnSingleAirElemental.button1,Continue
+EventStartFinale.text,Objective: Escape the temple.
+EventStartFinale.button1,Continue
+SpawnSingleGiantSpider.text,Sensing fresh meat, a giant spider scuttles up from the depths.\n\nPlace a single {type} on the indicated space.
+SpawnSingleGiantSpider.button1,Continue

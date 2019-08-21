@@ -1,0 +1,214 @@
+.,English
+quest.name,06. Keep of the Howling Winds
+quest.description,For the first time, the heroes take the fight to the elemental cultists.
+quest.authors,Scytale
+quest.synopsys,Storm the Keep and clear out the cultists.
+DoorEntry.text,A closed, stone door bars your entrance into the keep.\n\nTest {might} to smash it down or {awareness} to unlock it.
+DoorEntry.button1,Pass
+EventPlaceHeroes.button1,Continue
+EventRound1.button1,Button1
+DoorEast.button1,Open
+SpawnSpirits.text,Place {var:#heroes} {type}s on the indicated spaces.
+DoorNorth.text,Icy cold winds whistle from around the door.
+EventShowMainRoom.button1,Continue
+SpawnSpidersEast.button1,Continue
+TokenSearch3.button1,Search
+SpawnWizards.text,Place {type} on the indicated space.
+SpawnWizards.button1,Continue
+DoorWest.text,An old, rotten wooden door leads further into the keep.
+SpawnGuards.text,As you approach, you can see guards on the high-ground. With a rough shout, they prepare themselves.\n\nPlace a {type} group on the indicated space.
+SpawnGuards.button1,Continue
+DoorEntry.button2,Fail
+EventGameStart.text,THE KEEP OF HOWLING WINDS\n\nFor the first time, you are taking the fight to the cultists. As you step out from the trees, having followed the directions from the hunters, an abandoned keep loams over you, standing tall above the trees.\n\nAn unnatural, chill wind swirls around keep carrying whispers of fowl words of magic. \n\nYou prepare yourselves and head up a warn path.
+EventGameStart.button1,Continue
+EventPlaceTiles.text,Set aside the tiles 11, 13, 14, 16, 17, 18, 36, 39, 70 and 2x 79.
+EventPlaceTiles.button1,Continue
+EventActionKeepDoor.text,With the entrance open, you can see further into the keep.
+DoorWest.button1,Open
+EventOpenDoorEast.button1,Continue
+EventRound2.button2,Failed
+TokenSearch1.button1,Pass
+DoorNorth.button1,Open
+TokenBlock1.text,The stones of the bridge look like they would crumble into dust if any weight was put on them.
+EventSearch3Result.text,You find something of interest in the debris.\n\nDraw a Search card.
+TokenBlock1.button1,Leap across
+TokenBlock2.button1,Leap across
+TokenTrap.text,The winds howl across the steps leading up to the keep.
+TokenBlock2.text,The stones of the bridge look like they would crumble into dust if any weight was put on them.
+EventRiddle3.button1,Continue
+EventOpenDoorWest.button1,Continue
+TokenPuzzle2.button2,Fail
+TokenPuzzle2.text,A circle on the floor is enscribed with twisted runes.\n\nAs an action, an adjacent hero may test {knowledge} to understand the runes.
+EventRiddle3.text,"""Once the fire burns, bring forth water."""
+EventSearchTemple2.button1,Continue
+EventSearchTemple2.text,You find something of interest in the debris.\n\nKeep taking a random Market Card until you draw one of 75g or less value.
+TokenPuzzle2.button1,Pass
+DoorRoomEast.button1,Open
+DoorRoomEast.text,A solid, iron bound door.
+EventIntroObjective.button1,Continue
+EventIntroObjective.text,Objective: Find the center of the keep.
+EventPlaceHeroes.text,Place Heroes adjacent to the indicated space.
+EventGameEnd.button1,End
+EventGameEnd.text,Unable to cleanse the Keep of the Howling Winds from the vile elemental air magic, you make a hasty retreat.\n\nYou head back to the town of Hommlet to discuss what to do next.
+TokenTrap.button1,Continue
+EventActionKeepDoor.button1,Continue
+EventRound2.text,Evil spirits swirl through the air of the steps, you need to be quick avoid them.\n\nAll heroes within two spaces of the green marker must make a {awareness} test.
+SpawnSpirits.button1,Continue
+EventTrapFire.text,Sensing your presence, evil air spirits swarm up from the cliff sides.
+EventRound2.button1,Success
+EventTrapFire.button1,Continue
+TokenPuzzle1.text,A filthy banner hangs over the entrance. A curling script of runes spells out some words.\n\n\nAs an action, an adjacent hero may test {knowledge} to understand them.
+TokenPuzzle1.button1,Pass
+EventRiddle1.text,"""Air is the first and mightiest of all elements."""
+EventRiddle1.button1,Continue
+TokenPuzzle1.button2,Fail
+DoorEast.text,An old, rotten wooden door leads further into the keep.
+EventSearch1Success.button1,Continue
+EventMainRoomDoorDisallowed.text,The door is closed tight.
+TokenSearch1.text,The keep entrance is old, failing down and cluttered with junk.\n\nAs an action, an adjacent hero may test {awareness} to look around.
+TokenSearch1.button2,Fail
+EventSearch1Failed.text,You find nothing of interest.
+EventSearch1Failed.button1,Continue
+EventSearch1Success.text,You see that several bricks are lose and can be taken out to see what is behind.\n\nDraw a Search card.
+TokenPillar1.text,A pillar reaches up from out of the floor and stretches to the ceiling. It is covered in runes that flare when you hand comes close to them.\n\nAs an action, an adjacent hero may manipulate the runes.
+TokenPillar1.button1,Use runes
+TokenPillar2.text,A pillar reaches up from out of the floor and stretches to the ceiling. It is covered in runes that flare when you hand comes close to them.\n\nAs an action, an adjacent hero may manipulate the runes.
+TokenPillar2.button1,Use runes
+DoorMainRoomWest.text,A iron portcullis bars your way. You notice it has no way to stay open.\n\nAs an action, an adjacent hero may Open the portcullis.
+DoorMainRoomWest.button1,Open
+EventDoorTrap.text,As you turn the large, metal door handle a series of gear are set in motion.\n\nAny hero within one space of the door may test {awareness} to quickly disable the mechanism.
+EventDoorTrap.button1,Pass
+EventDoorTrapDisabled.text,With quick reflexes, you jam a knife into a gear stopping the mechanism. All around you, you can see arrowheads now protruding from the walls.
+EventDoorTrapDisabled.button1,Continue
+EventDoorTrap.button2,Fail
+EventDoorTrapFailed.text,You fail to stop the mechanism in time. Arrows fly out of holes in the wall.\n\nAll heroes on tile 16B take 4{heart} (armor & shield may be used).
+EventDoorTrapFailed.button1,Continue
+EventShowFinale.text,With a flash of light and an almighty crash of thunder, you find yourself thrown to the other side.\n\nAll heroes that were within 2 spaces of either pillar adjacent \nplace them adjacent to the indicated space.
+EventMainRoomDoorAllowed.text,You step through quickly as the portcullis comes down behind you.\n\n The hero must end their movement immediately after stepping through.
+EventShowMainRoom.text,As the door opens, you can see the central room of the keep. From a deep pit in the center, whistles malevolent wind. Two tall pillars, arising up from the depths, seem to hold the entire floor in place.
+DoorRoomWest.button1,Open
+DoorRoomWest.text,A solid, iron bound door.
+EventRiddle2.text,"""Air can fan the flames of fire."""
+EventRiddle2.button1,Continue
+TokenSearch2.text,A tall cupboard of solid wood stands strong in the corner of the room.\n\nAs an action, an adjacent hero may test {might} to break it open.
+TokenSearch2.button1,Pass
+TokenSearch2.button2,Fail
+EventSearch2Success.text,Draw 1 card at random from Act 1 treasure. Keep drawing until you find one of value 75g.
+EventSearch2Success.button1,Continue
+TokenPuzzle3.text,Scraps of brown paper cover an ancient desk.\n\nAs an action, an adjacent hero may test {knowledge} to understand the runes.
+TokenPuzzle3.button1,Pass
+TokenPuzzle3.button2,Fail
+EventPuzzleAddAir.button1,Continue
+UIWater.button1,Button1
+UIAir.button1,Button1
+UIFire.button1,1
+EventPuzzleStart.button1,Button1
+EventPuzzleAddWater.button1,Button1
+EventPuzzleTest.button1,Continue
+EventPuzzleAddFire.button1,Button1
+UIEarth.button1,Button1
+EventPuzzleAddEarth.button1,Button1
+EventPuzzleTestSuccess.button1,Continue
+EventPuzzleTest.text,The runes flare and electricity runes up the pillar.
+EventPuzzleFirePos4.button1,Button1
+EventPuzzleAirPos4.button1,Button1
+EventPuzzleWaterPos4.button1,Button1
+EventPuzzleAirPos3.button1,Button1
+EventPuzzleAirPos2.button1,Button1
+EventPuzzleFirePos1.button1,Button1
+EventPuzzleFirePos2.button1,Button1
+EventPuzzleFirePos3.button1,Button1
+EventPuzzleWaterPos1.button1,Button1
+EventPuzzleWaterPos2.button1,Button1
+EventPuzzleWaterPos3.button1,Button1
+EventPuzzleAddElement.button1,Continue
+EventPuzzleEarthPos1.button1,Button1
+EventPuzzleEarthPos2.button1,Button1
+EventPuzzleEarthPos3.button1,Button1
+EventPuzzleEarthPos4.button1,Button1
+EventPuzzleTestFailed.text,Zap!\n\nFor each pillar ...\nAny hero within 1 space of a pillar takes 3{heart}.\nAny hero within 1 space of that hero takes 2{heart}.\nAny hero within 1 space of that hero takes 1{heart}.
+EventPuzzleTestFailed.button1,Continue
+SpawnSpidersWest.text,Spiders scuttles about in these corridors.\n\nPlace a {type} group on the indicated space.
+SpawnSpidersWest.button1,Continue
+SpawnSpidersEast.text,Large spiders sit in webs hanging from the ceiling.\n\nPlace a {type} group on the indicated space.
+TokenSearch3.text,Junk and detritus lie in piles across the floor.
+EventSearch3Result.button1,Continue
+EventOpenDoorWest.text,Lay out the tiles as shown.\n\nThe blue door is a portcullis.
+EventOpenDoorEast.text,Lay out the tiles as shown.
+EventOpenRoomWest.text,The door opens onto a room that the cultists have clearly used to summon elemental air spirits.
+EventOpenRoomWest.button1,Continue
+SpawnReavers.text,The air in the summoning circle solidifies into elemental reavers.\n\nPlace a {type} group onto the summoning circle.
+SpawnReavers.button1,Continue
+SpawnWizardElite.uniquetext,-
+SpawnWizardElite.text,A twisted cultist stands by the circle, breathing life into the elementals.\n\nPlace an elite {type} on the space indicated.
+SpawnWizardElite.uniquetitle,Master Sorcerer
+SpawnWizardElite.button1,Continue
+TokenCultistScribe.text,A haggard man in dirty robes looks through old manuscripts with a mad look in his eyes.
+TokenCultistScribe.button1,Talk
+EventActionTalkScribe.text,The scribe spins round with a rabid expression on his face.\n\nTest {will} to stare him down.
+EventActionTalkScribe.button1,Pass
+EventActionTalkScribe.button2,Fail
+EventActionTalkScribePass.text,"The scribe cowers his head and goes back to work, always muttering ...\n""Once the fire burns, bring forth water ... and then comes the ash but we hate earth, we don't speak of it. The ash will fly away on the wind though. So everything goes back to the air."""
+EventActionTalkScribePass.button1,Continue
+EventActionTalkScribeFail.text,The scribe is not intimidated by your presence and begins to cast evil magic.
+EventActionTalkScribeFail.button1,Continue
+SpawnScribe.text,As the scribe completes the spell, magic consumes the body leaving only the malevolent spirit.\n\nPlace an elite {type} on the space indicated.
+SpawnScribe.button1,Continue
+SpawnScribe.uniquetitle,Mad Scribe
+SpawnScribe.uniquetext,-
+DoorLocked2.text,Elemental air swirls angrily around this door and rebuffs any attempt to open it. \n\nAs an action, an adjacent hero may test {knowledge} to investigate them further.
+DoorLocked2.button1,Pass
+DoorLocked1.text,Elemental air swirls angrily around this door and rebuffs any attempt to open it. \n\nAs an action, an adjacent hero may test {knowledge} to investigate them further.
+DoorLocked1.button1,Pass
+DoorLocked1.button2,Fail
+EventActionArcaneDoorFail.text,You cannot seem to penetrate the malignant energies that surround this door.
+EventActionArcaneDoorFail.button1,Continue
+EventActionArcaneDoorPass.button1,Continue
+EventActionArcaneDoorPass.text,The malignant elemental magic, surrounding this door, draws strengthen from a powerful, unknown source. It is unlikely that there is any way that you can cleanse it.\n\nYou will have to return another day.
+EventShowExit.text,Objective: Leave the keep.
+EventShowExit.button1,Continue
+TokenExit.text,The way out of the keep.\n\nAs an action, if all heroes are adjacent to the marker, a hero may lead the group away from the keep.
+TokenExit.button1,Leave the keep
+TokenSearch4.text,Thick spider webs cover a broken doorway out onto a rampart.\n\nAs an action, an adjacent hero may search the cobwebs.
+TokenSearch4.button1,Search
+EventActionSearch4.text,You search the cobwebs where the various corpses, the spiders victims, still hang.\n\nDraw a Search card.
+EventActionSearch4.button1,Continue
+DoorMainRoomEast.text,A iron portcullis bars your way. You notice it has no way to stay open.\n\nAs an action, an adjacent hero may Open the portcullis.
+DoorMainRoomEast.button1,Open
+EventMainRoomDoorDisallowed.button1,Continue
+EventMainRoomDoorAllowed.button1,Continue
+EventShowFinale.button1,Continue
+SpawnReavers2.text,The lightning takes shape in the form of elemental reavers.\n\nPlace a {type} group on the indicated space.\nNote that these have the trait Flying.
+SpawnReavers2.button1,Continue
+SpawnAirElementals.text,The air shimmers are elementals take form.\n\nPlace a {type} on each of the individual spaces.
+SpawnAirElementals.button1,Continue
+EventPuzzleCleanSequence.button1,Continue
+EventGameEndRound.button1,Button1
+SpawnSingleReaver.button1,Continue
+SpawnSingleAirElemental.text,The air shimmers and solidifies into an air elemental.\n\nPlace a single {type} on the space indicated.
+SpawnSingleAirElemental.button1,Continue
+DoorLocked2.button2,Fail
+EventFinaleWarning.button1,Continue
+SpawnSingleReaver.text,The lightning forms into an elemental reaver.\n\nPlace a single {type} on the space indicated.
+EventActionLeap.text,Test {might} or {awareness} to leap across the gap or run fleet-footed across the crumbling bridge.
+EventActionLeap.button1,Pass
+EventActionLeap.button2,Fail
+EventActionLeapPass.text,Place the hero on the other side of the bridge.
+EventActionLeapPass.button1,Continue
+EventActionLeapFail.button1,Continue
+EventActionLeapFail.text,Your footing fails you and you tumble down into the pit, landing hard in darkness at the bottom.\n\nThe hero is knocked unconcious.\n(Note, select the hero & click KO)
+EventActionLeapFailRevive.text,In the hero's next turn, as an action they may Recover and awaken on the indicated space.
+EventActionLeapFailRevive.button1,Continue
+EventGameMechanic.text,GAME MECHANIC\n\nAll Air Elementals (reavers, shades & wraiths) are incorporeal. Their movement is not blocked by any obstacles, e.g. pits, doors, heroes or other monsters.
+EventGameMechanic.button1,Continue
+EventFinaleWarning.text,You can hear the heavy footsteps, something is slowly coming up from the depths.
+EventFinaleLastWarning.button1,Continue
+EventFinaleLastWarning.text,The heavy footsteps draw closer, and now accompanied by growling breath. You should consider leaving now!
+EventFinaleFailed.button1,End
+EventFinaleFailed.text,The air shimmers and crackles as a hooded figure steps out from the sealed doors at the far end of the main room.\n\nMagic channels up from the deep, lightning arcs throughout the keep, without any protection, you are defeated.
+EventGameFailed.text,You have been defeated.\n\nYou flee the Keep having learnt what you can but suffering heavily. You head back to the town of Hommlet to recover.
+EventGameFailed.button1,Continue
+EventGameEliminated.button1,Button1
+EventGameNoMorale.button1,Button1
+EventGameFailedLoss.text,The party loses 75g.\nOne party member must destroy 1 piece of equipment (not a Search card).
+EventGameFailedLoss.button1,End

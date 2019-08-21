@@ -1,0 +1,88 @@
+.,English
+quest.name,07. The Old Crone
+quest.authors,Scytale
+quest.synopsys,Find the old crone living deep in the swamps.
+EventHeroes.text,Place Heroes anywhere on the entrance tile.
+EventHeroes.button1,Continue
+SpawnWorms.button1,Continue
+SpawnShades.button1,Continue
+DoorCenter.button1,Open
+SpawnHounds.button1,Continue
+TokenWitch1.text,An hunched figure can be seen gathering weeds from a dirty pool.
+EventGameStart.button1,Continue
+EventPlaceTiles.text,Set aside tiles 14, 23, 32, 38, 50, 56, 57, 60, 63, 70, .In addition, 2 entries, 5 stone ends and 2 forest ends.\n\nBuild the map as shown.
+EventPlaceTiles.button1,Continue
+TokenPath2.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path already (either Pass or Fail).
+TokenPath1.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
+TokenPath1.button1,Pass
+DoorGardenDoor.button1,Open
+EventActionPath1PlaceHero.button1,Continue
+EventShowWitch1.text,An hunched figure can be seen gathering weeds from a dirty pool.
+TokenPath2.button1,Pass
+SpawnSorcerers.button1,Continue
+DoorWestBushes.text,Thick brambles bar your way.
+SpawnSorcerers.text,A group of sorcerers dressed in blue come solemnly through the gates. Their chanting stirs the air and a cold wind run through the town.\n\nThey are clearly looking for new victims to replace the ones you rescued.\n\nPlace a {type} group on the indicated space.
+quest.description,Find the old crone living deep in the swamps.
+SpawnHounds.text,A group of deformed hounds are charging through the village.\n\nPlace a {type} group on the indicated space.
+EventHideWitch1.text,The hunched figure walks deeper into the swamp.
+SpawnPriest.button1,Continue
+SpawnPriest.uniquetext,-
+EventObjective.text,Objective: Find the old crone.
+EventObjective.button1,Continue
+EventShowTransitions.button1,Continue
+EventGameStart.text,THE OLD CRONE\n\nUnable to stop to the stop the foul magic within the Keep of the Howling Winds, you set out to learn more about the history of the cult.\n\nLocals say that an old crone lives deep the the local swamps, has for decades collected lore on the region.\n\nYou set out to find her.
+EventShowCenter.button1,Continue
+TokenPath1.button2,Fail
+EventObjective2.text,Objective: Find who opened the gate.
+EventObjective2.button1,Continue
+SpawnWorms.text,Giant disease-carrying worms crawl out of the undergrowth, they should have died out generations ago.\n\nPlace a {type} group onto the indicated space.
+SpawnShades.text,Following the sorcerers, on the chilled wind, float in a group of air elementals.\n\nPlace a {type} group on the indicated space.
+SpawnPriest.uniquetitle,Air Cultist
+SpawnGolbinsPool.button1,Continue
+TokenWitch1.button1,Talk
+EventShowWitch1.button1,Continue
+SpawnPriest.text,With a terrible scream, the priest throws back his robes to reveal his deformed shape. A chant had obviously been waiting on his lips, that he now quickly speaks.\n\nPlace an elite {type} at this location.
+EventHideWitch1.button1,Continue
+TokenSearchGatehouse.text,Maybe something of useful can found in the Gatehouse.
+TokenSearchGatehouse.button1,Search
+EventActionSearchGatehouse.text,You find a Health Potion & Stamina Potion gathering dust on the shelves. The Gatekeeper seems to have never needed this, so you can certainly take them.\n\nDraw a Health Potion & Stamina Potion from the Search cards.
+EventActionSearchGatehouse.button1,Continue
+EventActionSearchTownCenter.text,You look through the possessions of the cultists.\n\nDraw a Search card. Note, draw again if you receive Teasure Chest.
+EventActionSearchTownCenter.button1,Continue
+EventActionPath1Fail.button1,Continue
+EventShowEast.text,The many darkened paths twist and turn. You come out in a place strangely familiar.\n\nBuild the map as shown.
+EventActionSearchMarket.button1,Continue
+EventActionSearchMarket.text,You search through the chaos, looking for something of interest.\n\nDraw a Search card.
+UIBackground.button1,Awaken!
+DoorWestBushes.button1,Cut down
+EventActionPath1Fail.text,You follow the dark path, getting turned around many times, you finally come out in a part you recognise.\n\nPlace you hero on the highlight space. If occupied, place the hero on an adjacent space.
+EventShowTransitions.text,The swamp disappears down a dark path which you can choose to follow.
+EventActionBushesPool.text,You cut down the thick brambles but the effort makes a loud noise.
+EventActionBushesPool.button1,Continue
+SpawnGolbinsPool.text,Goblins, drinking at the pool, look up as you cut through. \n\nPlace a {type} group at the shown location.
+TokenPath2.button2,Fail
+DoorCenter.text,Thick vines bar your way.
+EventActionPath1PlaceHero.text,Place you hero on the highlight space. If occupied, place the hero on an adjacent space.
+TokenPath3.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
+TokenPath3.button1,Pass
+EventActionPath3Pass.text,You follow the dark path through the swamp.\n\nPlace you hero on the highlight space. If occupied, place the hero on an adjacent space.
+EventActionPath3Pass.button1,Continue
+TokenPath3.button2,Fail
+EventActionPath3Fail.text,You follow the dark path, getting turned around many times, you finally come out in a part you recognise.\n\nPlace you hero on the highlight space. If occupied, place the hero on an adjacent space.
+EventActionPath3Fail.button1,Continue
+TokenPath4.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
+TokenPath4.button1,Pass
+TokenPath4.button2,Fail
+EventShowCenter.text,You follow the dark path, coming out in a new part of the swamp.\n\nBuild map as shown.
+EventShowEast.button1,Continue
+DoorGardenDoor.text,Thick roses hangs between the trees. Their flowers look twisted and spoilt.
+EventActionGardenDoor.text,As you push aside the roses, a thick cloud of sweet smelling pollen fills the air.\n\nAll heroes within 2 spaces of the door must test {will} or be Stunned.
+EventActionGardenDoor.button1,Continue
+SpawnEttin.uniquetext,An ettin, covered in moss and swamp tiwgs, raises it head and spies fresh food.\n\nPlace an elite {type} on the indicated space.
+SpawnEttin.text,An ettin, covered in moss and swamp tiwgs, raises it head and spies fresh food.\n\nPlace an elite {type} on the indicated space.
+SpawnEttin.uniquetitle,Twisted Ettin
+SpawnEttin.button1,Continue
+SpawnGoblinArchers.button1,Continue
+SpawnGoblinArchers.text,In hearing a noise, goblins break out from the undergrowth.\n\nPlace a {type} group on the indiciated space.
+EventTriggerEttinDeath.text,As the ettin dies, you notice the large mound of leaves the ettin was sitting on.
+EventTriggerEttinDeath.button1,Continue
