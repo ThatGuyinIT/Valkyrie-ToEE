@@ -4,7 +4,7 @@ A campaign for Descent 2nd Edition in the Valkyrie editor.
 
 Current plan
 ---
-SetFame = Noteworthy
+> SetFame = Noteworthy
 01. The Escape 			(+1 XP | XP:01) 
 02. Interlude			
 03. Rescue the Prisoners	(+1 XP | XP:02) 
@@ -26,7 +26,7 @@ SetFame = Noteworthy
 > SetFame = Heroic
 ---
 12. Retribution			(+2 XP | XP:15) 
-SetFame = Legendary 
+>SetFame = Legendary 
 13. Seize the Advantage - Temple Lvl 1
 14. Seize the Advantage - Temple Lvl 2
 15. Seize the Advantage - Temple Lvl 3
