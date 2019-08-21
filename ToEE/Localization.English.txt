@@ -1,0 +1,7 @@
+.,English
+UIStart.uitext,Start
+quest.name,The Temple of Elemental Evil
+quest.description,...
+UIStart.button1,Start
+quest.authors,Scytale
+UILore.uitext,Centuries ago, a cult of evil was purged from the world of Greyhawk. They had brought something utterly vile into the world. The ruins of their temple, where they experimented, lie in the immense forests near the small town of Hommlet, in the filthy shire of Nulb. The temple was sealed under the hills, hidden in the trees and eventually forgotten.\n\nOf late, folk from Hommlet whisper about strange sightings in the forest. They lock their door and bolt their windows when night falls.
