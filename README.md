@@ -13,7 +13,7 @@ SetFame = Noteworthy
 SetFame = Impressive
 > Return to Hommlet (q4)
 06. Keep of the Howling Winds 	(+1 XP | XP:04) 
->> Return to Hommlet (q4)
+> Return to Hommlet (q4)
 07. The Old Crone
 > Return to Hommlet (q4)
 08. Recover the Purity Orb 	(+1 XP | XP:05) 
