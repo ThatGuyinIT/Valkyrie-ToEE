@@ -1,7 +1,9 @@
 .,English
 UIStart.uitext,Start
 quest.name,The Temple of Elemental Evil
-quest.description,...
+quest.description,It is generations since the Temple of Elemental Evil was defeated and buried beneath the Hills on Somber. So much time has passed that it has faded from memory. \n\nIn the small town of Hommlet, on the edge of the vast Somber forest, a darkness is starting to spread.
 UIStart.button1,Start
 quest.authors,Scytale
-UILore.uitext,Centuries ago, a cult of evil was purged from the world of Greyhawk. They had brought something utterly vile into the world. The ruins of their temple, where they experimented, lie in the immense forests near the small town of Hommlet, in the filthy shire of Nulb. The temple was sealed under the hills, hidden in the trees and eventually forgotten.\n\nOf late, folk from Hommlet whisper about strange sightings in the forest. They lock their door and bolt their windows when night falls.
+UILore.uitext,Centuries ago, a cult of evil was purged from the world of Greyhawk. They had sought to summon something utterly vile though they were defeated. The cult was destroyed, their magic purged, the temple sealed and the memory of it all forgotten  \n\nThe ruins of that temple lie now under the Hills of Somber, lost in the immense forests that circle the small town of Hommlet, in the filthy shire of Nulb.\n\nOf late, folk from Hommlet whisper about strange sightings in the forest. They lock their door and bolt their windows when night falls.
+quest.synopsys,The Temple of Elemental Evil.
+quest.authors_short,Scytale
