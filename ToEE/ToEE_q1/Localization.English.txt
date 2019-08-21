@@ -1,0 +1,81 @@
+.,English
+quest.name,01. Escape
+quest.description,Captured and thrown into a dungeon, the heroes must first escape if they are to learn more.
+quest.authors,Scytale
+quest.synopsys,Battle any threats that manifest and escape from the\ndungeon.
+DoorEntry.text,A poorly made door holds you in this cell.\n\nTest {might} to smash it down or {awareness} to unlock it.
+DoorEntry.button1,Success
+EventBuildMap.button1,Continue
+DoorWizards.button1,Open
+SpawnGuards1.button1,Continue
+SpawnGuards1.text,Place {type} on the indicated space.
+DoorGuards.text,Fresh air and the sound of voices come from the other side of the door.
+DoorGuards.button1,Open
+SpawnRats.text,Place {type} on the indicated space.
+SpawnRats.button1,Continue
+SpawnWizards.text,Place {type} on the indicated space.
+SpawnWizards.button1,Continue
+DoorWizards.text,Flames can be seen flickering underneath this wooden door.
+SpawnGuards.text,Place {type} on the indicated space.
+SpawnGuards.button1,Continue
+DoorEntry.button2,Failed
+EventGame1Start.button1,Continue
+EventGameStart.button1,Continue
+EventTiles.button1,Continue
+EventBuildMap.text,Build the map as shown.\n\nPlace Heroes adjacent to the indicated space.
+EventSecondRoom.button1,Continue
+EventSecondRoom.text,Guards scamble into action as you open the door.
+EventWizards.text,Place tile 31B, 3 end points and two search tokens.
+EventWizards.button1,Continue
+DoorRats.text,An old door leads further through the corridors.
+DoorRats.button1,Open
+EventForestGuards.button1,Continue
+EventForestGuards.text,The door opens out into a small forest temple with steps leading out.
+TokenExit.button1,Yes
+TokenExit.text,A trail through the forest leads away from the temple and to the nearest village.\n\nAre all the heroes on the exit tile?
+DoorLocked.button1,Continue
+TokenGuards.button1,Search
+DoorLocked.text,This door is locked with some arcane magic.
+TokenGuards.button2,Ignore
+EventSearchGuards.button1,Continue
+TokenTemple1.text,Junk and debris lie piled up on the floor.
+TokenGuards.text,Junk and debris lie piled up on the floor.
+TokenTemple1.button1,Search
+TokenTemple1.button2,Ignore
+TokenWizards1.button1,Search
+TokenTemple2.button1,Search
+TokenTemple2.button2,Ignore
+EventSearchTemple1.text,You find something of interest in the debris.\n\nKeep taking a random Act 1 Market Card until you draw one of 75g or less value.
+EventSearchGuards.text,You find something of interest in the debris.\n\nKeep taking a random Act 1 Market Card until you draw one of 75g or less value.
+TokenWizards2.text,Junk and debris lie piled up on the floor.
+TokenWizards1.text,Junk and debris lie piled up on the floor.
+TokenWizards2.button1,Search
+TokenTemple2.text,Junk and debris lie piled up on the floor.
+EventSearchTemple1.button1,Continue
+EventSearchTemple2.button1,Continue
+TokenWizards1.button2,Ignore
+EventSearchTemple2.text,You find something of interest in the debris.\n\nKeep taking a random Act 1 Market Card until you draw one of 75g or less value.
+EventSearchWizards1.text,You find something of interest in the debris.\n\nKeep taking a random Act 1 Market Card until you draw one of 75g or less value.
+EventSearchWizards1.button1,Continue
+TokenWizards2.button2,Ignore
+EventSearchWizards2.text,You find something of interest in the debris.\n\nKeep taking a random Act 1 Market Card until you draw one of 75g or less value.
+EventSearchWizards2.button1,Continue
+TokenVillagerMan.text,An old villager is also being held in this cell. He will probably make his own escape if the way is clear.
+TokenVillagerMan.button1,Continue
+TokenVillagerWoman.text,An old villager is also being held in this cell. She will probably make her own escape if the way is clear.
+TokenVillagerWoman.button1,Continue
+EventObjective.text,Objective: Escape to freedom.
+EventIntroSituation.button1,Continue
+EventGame1Start.text,ESCAPE \n\nYou were travelling to the town of Hommlet because of the rumors—the  whispers of  fire in the sky, rumblings in the earth, voices on the wind. The locals whispered of disappearances of anyone who wandered into the countryside. You and your companions felt compelled to act. If only you’d been more prepared…\n\nWhat happened? The last thing you remember was travelling on the road, close to the forest … an ambush ... crazed maniacs wearing robes of stone, or fire. It’s all hazy now. But one thing you recall with certainty—their eyes glowed with a strange inner light.\n\nYou awaken in a damp, musty underground cell.
+EventIntroSituation.text,You awaken in a large cell stinking of mould. The walls are carved out of stone, indicating you are underground or in a mountainside. An old wooden doorway is your only way out.\n\nTwo villagers are also present in the cell though they appear resigned to their situation.
+TokenExit.button2,No
+EventGameEnd.text,You head into the forest hoping to find your way back to the village of Hommlet.
+EventGameEnd.button1,End quest
+EventGameNoMorale.button1,Button1
+EventGameFailed.text,You have been defeated.\n\nThe cultists take you and throw you back into their cells.
+EventGameFailed.button1,End
+EventGameEliminated.button1,Button1
+EventObjective.button1,Continue
+EventGame3Start.text,ESCAPE \n\nYou awaken in a damp, musty underground cell with a distinct sense of deja-vu.\n\nTime to leave this place.
+EventGame3Start.button1,Continue
+EventTiles.text,Set aside tiles 3, 14, 23, 24, 31 and 70. One forest exit and 7 ends.
