@@ -122,3 +122,10 @@ EventActionGrave1.text,As you open the tomb, a cloud of foul spirits rises out o
 EventActionGrave1.button1,Continue
 SpawnZombies.text,Figures of old bones covered in slime and twigs come to life.\n\nPlace a {type} group at the indicated space.
 SpawnZombies.button1,Continue
+TokenPath7.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path already (either Pass or Fail).
+TokenPath7.button1,Pass
+TokenPath7.button2,Fail
+EventShowPool.text,As you head down the path, you quickly lose sight of the others.\n\nBuild the map as shown.
+EventShowPool.button1,Continue
+EventActionPath7Fail.text,Place your hero on the indicated space.
+EventActionPath7Fail.button1,Continue

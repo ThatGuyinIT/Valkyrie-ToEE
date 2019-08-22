@@ -18,7 +18,7 @@ EventGameStart.button1,Continue
 EventQuest03Reward.text,All heroes recieve 1 XP.\n\nThe township rewards you with 100g for the rescue of its folk.
 EventQuest03Arrive.button1,Continue
 EventShowVillage.button1,Sell treasure
-EventActionLeave.text,Have you finished shopping for the day?
+EventActionLeave.text,Are you finished for the day?
 EventActionSellTreasure.button1,Sell for 75g
 EventSell75g.text,You find someone in the town willing to buy the equipment, though only for half the price.
 EventSell75g.button1,Continue
@@ -33,11 +33,11 @@ EventQuest05Reward.button1,Continue
 EventQuest05LeaveSuccess.button1,Travel
 EventQuest05LeaveFailed.button1,Travel
 EventQuestNone.text,Error: No quest set.
-EventQuest7Failed.text,Quest 7 failed
+EventQuest07ArriveFailed.button1,Continue
 EventQuest03Leave.text,You settle into the Inn for the evening.
 EventQuestNone.button1,Continue
 EventQuest05LeaveSuccess.text,You spend time over the following week speaking to several local hunters who can follow the tracks the cultists made. Eventually you feel confident that you know where the cultists have come from ... the Keep of Howling Winds.\n\n One morning you set out to investigate.
-EventQuest7Failed.button1,Continue
+EventQuest07ArriveSuccess.text,You succeeded.
 EventQuest06ArriveSuccess.button1,Continue
 EventQuest06Reward.text,All heroes recieve 1 XP.\n\nIn the market, you sell various valuables you gathered from the keep. You receive 75g.
 EventQuest05ArriveSuccess.text,In the aftermath of the attack by the Cultists of the Air, your presence helps restore calm to the townsfolk.
@@ -48,5 +48,21 @@ EventQuest06Reward.button1,Continue
 EventQuest06ArriveFailed.text,Wounded and weary, you return to the town of Hommlet. 
 EventQuest06ArriveFailed.button1,Continue
 EventIncreaseMorale.button1,Button1
-EventQuest06LeaveSuccess.button1,Travel
-EventQuest06LeaveSuccess.text,You spend some weeks in the library researching more about the Keep and the elemental magic that was present ... to little success.\n\nOnly one text seems to hint at cleansing ritual to remove magic within an area, a 
+EventQuest06LeaveSuccess.button1,Continue
+EventQuest06LeaveSuccess.text,You spend some weeks in the library researching more about the Keep and the elemental magic that was present ... to little success. Only one text seems, a collection of folk stories, seems to hint at a way to cleanse elemental magic. \n\nThe scribe says that she collected the tales from an old crone living out in the swamps, where the Gnarley forest meets the winding river Etting.\n\nYou set out visit the crone and speak to her.
+EventQuest06LeaveFailed.button1,Travel
+EventQuest06LeaveFailed.text,Given your defeat, the mysteries of the Keep of Howling Winds remain unsolved. \n\nYou collect yourselves and set out to attempt again to investigate it fully.
+EventQuestNone.button2,Set Quest 3
+EventQuestNone.button3,Set Quest 5 (failed)
+EventQuestNone.button4,Set Quest 5 (success)
+EventQuest05TestPass.button1,Button1
+EventQuest05TestFail.button1,Button1
+EventQuest03Test.button1,Button1
+EventQuestNone.button5,Set Quest 6 (failed)
+EventQuestNone.button6,Set Quest 6 (success)
+EventQuest06TestFail.button1,Button1
+EventQuest06TestPass.button1,Button1
+EventQuest07ArriveFailed.text,Quest 7 failed
+EventQuest07ArriveSuccess.button1,Continue
+EventQuest07Reward.text,All heroes receive 1 XP.
+EventQuest07Reward.button1,Continue

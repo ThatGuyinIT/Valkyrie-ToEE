@@ -112,7 +112,7 @@ EventActionSearchMarket.text,You search through the chaos, looking for something
 quest.description,Something is rotten in the town of Hommlet.
 EventGameEliminated.button1,Button1
 EventGameFailed.text,You have been defeated.
-EventGameFailed.button1,Continue
+EventGameFailed.button1,End
 EventGameNoMorale.button1,Button1
 EventDefeatSpy.button1,Button1
-EventGameEnd.text,As the leader of the Cultists of the Wind falls to the ground,  any remaining cultists flee and elementals vanish.\n\nYou have saved the town.
+EventGameEnd.text,As the spy falls to the ground,  any remaining cultists flee and elementals vanish.\n\nYou have saved the town.
