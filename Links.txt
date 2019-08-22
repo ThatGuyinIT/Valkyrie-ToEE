@@ -1,0 +1,5 @@
+Valkyrie variables
+https://github.com/NPBruce/valkyrie/wiki/ValkyrieVars
+
+Sound file search
+https://www.zapsplat.com/

@@ -1,9 +1,9 @@
 .,English
 UIStart.uitext,Start
 quest.name,The Temple of Elemental Evil
-quest.description,It is generations since the Temple of Elemental Evil was defeated and buried beneath the Hills on Somber. So much time has passed that it has faded from memory. \n\nIn the small town of Hommlet, on the edge of the vast Somber forest, a darkness is starting to spread.
+quest.description,It is generations since the Temple of Elemental Evil was defeated and buried beneath the Hills of Somber. So much time has passed that it has faded from memory and the Gnarley forest has grown and hidden it from sight. \n\nIn the small town of Hommlet, on the edge of the forest, a darkness is starting to spread.
 UIStart.button1,Start
 quest.authors,Scytale
-UILore.uitext,Centuries ago, a cult of evil was purged from the world of Greyhawk. They had sought to summon something utterly vile though they were defeated. The cult was destroyed, their magic purged, the temple sealed and the memory of it all forgotten  \n\nThe ruins of that temple lie now under the Hills of Somber, lost in the immense forests that circle the small town of Hommlet, in the filthy shire of Nulb.\n\nOf late, folk from Hommlet whisper about strange sightings in the forest. They lock their door and bolt their windows when night falls.
+UILore.uitext,Centuries ago, a cult of evil was purged from the world of Greyhawk. They had sought to summon something utterly vile though they were defeated. The cult was destroyed, their magic purged, the temple sealed and the memory of it all forgotten  \n\nThe ruins of that temple lie now under the Hills of Somber, lost in the immense Gnarley Forest that encroaches on the small town of Hommlet, in the shire of Verbobone.\n\nOf late, folk from Hommlet whisper about seeing strange folk  on the road to Nulb. They lock their door and bolt their windows when night falls.
 quest.synopsys,The Temple of Elemental Evil.
 quest.authors_short,Scytale

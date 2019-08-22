@@ -1,7 +1,7 @@
 .,English
 quest.name,04. The Town of Hommlet
 quest.description,...
-EventTravelQuest5.text,You settle into the Inn for the evening.
+EventQuest03Leave.button1,Sleep
 EventUnused3.text,All heroes get 1 XP
 EventRestock.text,This restocks all stores (reroll) and other QItems.  The current store must be readded.  This will also remove any sold items from the store.
 EventGold.text,+50 gold.  Note that the store must be reloaded for this to show
@@ -15,8 +15,8 @@ EventActionLeave.button1,Yes
 EventActionSellTreasure.text,Do you wish to sell an equipment you found?
 EventActionSellTreasure.button2,Cancel
 EventGameStart.button1,Continue
-EventRewardQuest3.button1,Continue
-EventStartQuest3.button1,Continue
+EventQuest03Reward.text,All heroes recieve 1 XP.\n\nThe township rewards you with 100g for the rescue of its folk.
+EventQuest03Arrive.button1,Continue
 EventShowVillage.button1,Sell treasure
 EventActionLeave.text,Have you finished shopping for the day?
 EventActionSellTreasure.button1,Sell for 75g
@@ -24,20 +24,29 @@ EventSell75g.text,You find someone in the town willing to buy the equipment, tho
 EventSell75g.button1,Continue
 quest.authors,Scytale
 EventActionLeave.button2,No
-EventTravelQuest5.button1,Sleep
-EventRewardQuest3.text,All heroes recieve 1 XP.\n\nThe township rewards you with 100g for the rescue of its folk.
-EventQuest5Success.text,In the aftermath of the attack by the Cultists of the Air, your presence helps restore calm to the townsfolk.
-EventQuest5Failed.text,You failed to stop the attack on Hommlet. The townsfolk are tired and withdrawn.
-EventQuest5Failed.button1,Continue
-EventRewardQuest5.text,All heroes recieve 1 XP.\n\nThe township rewards you with 150g for the rescue of its folk.
-EventRewardQuest5.button1,Continue
-EventTravelQuest6.text,You spend time over the following week speaking to several local hunters who can follow the tracks the cultists made. Eventually you feel confident that you know where the cultists have come from ... the Keep of Howling Winds.\n\n One morning you set out to investigate.
-EventTravelQuest6.button1,Continue
+EventQuest03Arrive.text,You and the rescued townsfolk arrive tired and hungry to the town of Hommlet. Only trees and a river surrounds dirty wooden buildings. Whilst you will not find any luxury here, it has an inn, a smithy and a few shops.
+EventQuest05Reward.text,All heroes recieve 1 XP.\n\nThe township rewards you with 150g for the rescue of its folk.
+EventQuest05ArriveSuccess.button1,Continue
+EventQuest05ArriveFailed.text,You failed to stop the attack on Hommlet. The townsfolk are tired and withdrawn. They have little in the way to reward you.
+EventQuest05ArriveFailed.button1,Continue
+EventQuest05Reward.button1,Continue
+EventQuest05LeaveSuccess.button1,Travel
+EventQuest05LeaveFailed.button1,Travel
 EventQuestNone.text,Error: No quest set.
 EventQuest7Failed.text,Quest 7 failed
-EventStartQuest3.text,You and the rescued townsfolk arrive tired and hungry to the town of Hommlet. Only trees and a river surrounds dirty wooden buildings. Whilst you will not find any luxury here, it has an inn, a smithy and a few shops.
+EventQuest03Leave.text,You settle into the Inn for the evening.
 EventQuestNone.button1,Continue
-EventQuest5Success.button1,Continue
+EventQuest05LeaveSuccess.text,You spend time over the following week speaking to several local hunters who can follow the tracks the cultists made. Eventually you feel confident that you know where the cultists have come from ... the Keep of Howling Winds.\n\n One morning you set out to investigate.
 EventQuest7Failed.button1,Continue
-EventQuest7Success.text,Quest 7 success
-EventQuest7Success.button1,Continue
+EventQuest06ArriveSuccess.button1,Continue
+EventQuest06Reward.text,All heroes recieve 1 XP.\n\nIn the market, you sell various valuables you gathered from the keep. You receive 75g.
+EventQuest05ArriveSuccess.text,In the aftermath of the attack by the Cultists of the Air, your presence helps restore calm to the townsfolk.
+EventQuest05LeaveFailed.text,With the village silent and withdrawn, you make your own investigations as to what happened to the town priest. After some time you have a lead: a wood cutter had seen the priest heading into the Gnarley Forest a few times over the last week. \n\nThe path leads deep into the forest to an old abandoned keep ... the Keep of Howling Winds.\n\n One morning you set out to investigate.
+EventQuest03Reward.button1,Continue
+EventQuest06ArriveSuccess.text,You return from the Keep of Howling Winds having survived the encounter though worried that you could not get to the heart of the keep.\n\nYou decide to rest before investigating further.
+EventQuest06Reward.button1,Continue
+EventQuest06ArriveFailed.text,Wounded and weary, you return to the town of Hommlet. 
+EventQuest06ArriveFailed.button1,Continue
+EventIncreaseMorale.button1,Button1
+EventQuest06LeaveSuccess.button1,Travel
+EventQuest06LeaveSuccess.text,You spend some weeks in the library researching more about the Keep and the elemental magic that was present ... to little success.\n\nOnly one text seems to hint at cleansing ritual to remove magic within an area, a 
