@@ -2,7 +2,7 @@
 quest.name,07. The Old Crone
 quest.authors,Scytale
 quest.synopsys,Find the old crone living deep in the swamps.
-EventHeroes.text,Place Heroes anywhere on the entrance tile.
+EventHeroes.text,Place the heroes on the entrance to the swamp.\n\nFor any hero that becomes Lost, they start their next turn on this tile.
 EventHeroes.button1,Continue
 SpawnWorms.button1,Continue
 SpawnShades.button1,Continue
@@ -10,7 +10,7 @@ DoorCenter.button1,Open
 SpawnHounds.button1,Continue
 TokenWitch1.text,An hunched figure can be seen gathering weeds from a dirty pool.
 EventGameStart.button1,Continue
-EventPlaceTiles.text,Set aside tiles 14, 23, 32, 38, 50, 56, 57, 60, 63, 70, .In addition, 2 entries, 5 stone ends and 2 forest ends.\n\nBuild the map as shown.
+EventPlaceTiles.text,Set aside tiles xxxx.\n\nBuild the map as shown.\nThe green doors are forest walls.
 EventPlaceTiles.button1,Continue
 TokenPath2.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path already (either Pass or Fail).
 TokenPath1.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
@@ -20,7 +20,7 @@ EventActionPath1PlaceHero.button1,Continue
 EventShowWitch1.text,An hunched figure can be seen gathering weeds from a dirty pool.
 TokenPath2.button1,Pass
 SpawnSorcerers.button1,Continue
-DoorWestBushes.text,Thick brambles bar your way.
+DoorPool.button1,Cut down
 SpawnSorcerers.text,A group of sorcerers dressed in blue come solemnly through the gates. Their chanting stirs the air and a cold wind run through the town.\n\nThey are clearly looking for new victims to replace the ones you rescued.\n\nPlace a {type} group on the indicated space.
 quest.description,Find the old crone living deep in the swamps.
 SpawnHounds.text,A group of deformed hounds are charging through the village.\n\nPlace a {type} group on the indicated space.
@@ -43,8 +43,6 @@ TokenWitch1.button1,Talk
 EventShowWitch1.button1,Continue
 SpawnPriest.text,With a terrible scream, the priest throws back his robes to reveal his deformed shape. A chant had obviously been waiting on his lips, that he now quickly speaks.\n\nPlace an elite {type} at this location.
 EventHideWitch1.button1,Continue
-TokenSearchGatehouse.text,Maybe something of useful can found in the Gatehouse.
-TokenSearchGatehouse.button1,Search
 EventActionSearchGatehouse.text,You find a Health Potion & Stamina Potion gathering dust on the shelves. The Gatekeeper seems to have never needed this, so you can certainly take them.\n\nDraw a Health Potion & Stamina Potion from the Search cards.
 EventActionSearchGatehouse.button1,Continue
 EventActionSearchTownCenter.text,You look through the possessions of the cultists.\n\nDraw a Search card. Note, draw again if you receive Teasure Chest.
@@ -54,12 +52,12 @@ EventShowEast.text,The many darkened paths twist and turn. You come out in a pla
 EventActionSearchMarket.button1,Continue
 EventActionSearchMarket.text,You search through the chaos, looking for something of interest.\n\nDraw a Search card.
 UIBackground.button1,Awaken!
-DoorWestBushes.button1,Cut down
+EventShowWestCorner.text,You step out from the darkened paths.\n\nBuild the map as shown.
 EventActionPath1Fail.text,You follow the dark path, getting turned around many times, you finally come out in a part you recognise.\n\nPlace you hero on the highlight space. If occupied, place the hero on an adjacent space.
-EventShowTransitions.text,The swamp disappears down a dark path which you can choose to follow.
+EventShowTransitions.text,In many places, the swamp disappears down dark, twisted paths which, as an action, a hero may follow.
 EventActionBushesPool.text,You cut down the thick brambles but the effort makes a loud noise.
 EventActionBushesPool.button1,Continue
-SpawnGolbinsPool.text,Goblins, drinking at the pool, look up as you cut through. \n\nPlace a {type} group at the shown location.
+SpawnGolbinsPool.text,Goblins, drinking at the pool, look up as you step through. \n\nPlace a {type} group at the shown location.
 TokenPath2.button2,Fail
 DoorCenter.text,Thick vines bar your way.
 EventActionPath1PlaceHero.text,Place you hero on the highlight space. If occupied, place the hero on an adjacent space.
@@ -86,3 +84,41 @@ SpawnGoblinArchers.button1,Continue
 SpawnGoblinArchers.text,In hearing a noise, goblins break out from the undergrowth.\n\nPlace a {type} group on the indiciated space.
 EventTriggerEttinDeath.text,As the ettin dies, you notice the large mound of leaves the ettin was sitting on.
 EventTriggerEttinDeath.button1,Continue
+EventShowMiddle.text,The vines part to show a rocky path.
+EventShowMiddle.button1,Continue
+TokenPath5.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
+TokenPath5.button1,Pass
+TokenPath5.button2,Fail
+EventGameMechanic.text,GAME MECHANIC\n\nHEROES\nIf at any point, a hero is standing on a tile that has to be removed, that hero is Lost.\n\nAny Lost hero is removed from the map. On their turn, they appear at the entrance to the swamp.\n\nMONSTERS\nIf at any point, a monster is standing on a tile that has to be removed, move that monster to the closest existing (not new) tile.
+EventGameMechanic.button1,Continue
+EventActionPath2Fail.text,You stumble out from between the trees and into a pool of stagnent water.\n\nPlace your hero on the indicated space.
+EventActionPath2Fail.button1,Continue
+DoorPool.text,Thick brambles bar your way.
+EventShowWestCorner.button1,Continue
+EventShowEastHeroes.button1,Continue
+EventShowEastHeroes.text,Place you hero on the highlight space. If occupied, place the hero on an adjacent space.
+EventShowWestCornerHero.button1,Continue
+EventShowWestCornerHero.text,Place you hero on the highlight space. If occupied, place the hero on an adjacent space.
+EventShowWestCornerWithCap.button1,Button1
+EventShowWestCornerWithoutCap.button1,Button1
+TokenPath6.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
+TokenPath6.button1,Pass
+TokenPath6.button2,Fail
+EventShowGraveyard.button1,Button1
+EventShowGraveyardHero.text,Place the hero on the indicated space.
+EventShowGraveyardHero.button1,Continue
+EventGameEliminated.button1,Button1
+EventGameFailed.text,You have been defeated.\n\nCovered in dark slime, sore and wounded, you gather yourselves and retreat out of the swamp.
+EventGameFailed.button1,End
+EventGameNoMorale.button1,Button1
+EventShowGrave1.button1,Button1
+EventShowGrave3.button1,Button1
+EventShowGrave2.button1,Button1
+TokenEttinTreasure.text,In the mouldy leaves
+TokenEttinTreasure.button1,Continue
+TokenGraveyard1.text,An old, crumbling tomb lies half buried in the mud.\n\nAs an action, an adjacent hero may open it.
+TokenGraveyard1.button1,Open
+EventActionGrave1.text,As you open the tomb, a cloud of foul spirits rises out of the earth.
+EventActionGrave1.button1,Continue
+SpawnZombies.text,Figures of old bones covered in slime and twigs come to life.\n\nPlace a {type} group at the indicated space.
+SpawnZombies.button1,Continue
