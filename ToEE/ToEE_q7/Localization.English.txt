@@ -10,8 +10,7 @@ DoorCenter.button1,Open
 SpawnHounds.button1,Continue
 TokenWitch1.text,An hunched figure can be seen gathering weeds from a dirty pool.
 EventGameStart.button1,Continue
-EventPlaceTiles.text,Set aside tiles xxxx.\n\nBuild the map as shown.\nThe green doors are forest walls.
-EventPlaceTiles.button1,Continue
+EventGameBuildMap.button1,Continue
 TokenPath2.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path already (either Pass or Fail).
 TokenPath1.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
 TokenPath1.button1,Pass
@@ -36,7 +35,7 @@ TokenPath1.button2,Fail
 EventObjective2.text,Objective: Find who opened the gate.
 EventObjective2.button1,Continue
 SpawnWorms.text,Giant disease-carrying worms crawl out of the undergrowth, they should have died out generations ago.\n\nPlace a {type} group onto the indicated space.
-SpawnShades.text,Following the sorcerers, on the chilled wind, float in a group of air elementals.\n\nPlace a {type} group on the indicated space.
+SpawnShades.text,The dark spirits from the tomb spiral out of the trees and take shape.\n\nPlace a {type} group on the indicated space.
 SpawnPriest.uniquetitle,Air Cultist
 SpawnGolbinsPool.button1,Continue
 TokenWitch1.button1,Talk
@@ -74,15 +73,14 @@ TokenPath4.button2,Fail
 EventShowCenter.text,You follow the dark path, coming out in a new part of the swamp.\n\nBuild map as shown.
 EventShowEast.button1,Continue
 DoorGardenDoor.text,Thick roses hangs between the trees. Their flowers look twisted and spoilt.
-EventActionGardenDoor.text,As you push aside the roses, a thick cloud of sweet smelling pollen fills the air.\n\nAll heroes within 2 spaces of the door must test {will} or be Stunned.
-EventActionGardenDoor.button1,Continue
-SpawnEttin.uniquetext,An ettin, covered in moss and swamp tiwgs, raises it head and spies fresh food.\n\nPlace an elite {type} on the indicated space.
-SpawnEttin.text,An ettin, covered in moss and swamp tiwgs, raises it head and spies fresh food.\n\nPlace an elite {type} on the indicated space.
-SpawnEttin.uniquetitle,Twisted Ettin
-SpawnEttin.button1,Continue
+EventShowGarden.button1,Continue
+SpawnUniqueEttin.text,An ettin, covered in moss and swamp tiwgs, raises it head and spies fresh food.\n\nPlace an elite {type} on the indicated space.
+SpawnUniqueEttin.uniquetitle,Twisted Ettin
+SpawnUniqueEttin.button1,Continue
+SpawnUniqueTroll.uniquetext,-
 SpawnGoblinArchers.button1,Continue
 SpawnGoblinArchers.text,In hearing a noise, goblins break out from the undergrowth.\n\nPlace a {type} group on the indiciated space.
-EventTriggerEttinDeath.text,As the ettin dies, you notice the large mound of leaves the ettin was sitting on.
+EventTriggerEttinDeath.text,The ettin's death leaves the garden open to investigation.
 EventTriggerEttinDeath.button1,Continue
 EventShowMiddle.text,The vines part to show a rocky path.
 EventShowMiddle.button1,Continue
@@ -104,7 +102,7 @@ EventShowWestCornerWithoutCap.button1,Button1
 TokenPath6.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path this turn (either Pass or Fail).
 TokenPath6.button1,Pass
 TokenPath6.button2,Fail
-EventShowGraveyard.button1,Button1
+EventShowGraveyard.button1,Continue
 EventShowGraveyardHero.text,Place the hero on the indicated space.
 EventShowGraveyardHero.button1,Continue
 EventGameEliminated.button1,Button1
@@ -114,13 +112,13 @@ EventGameNoMorale.button1,Button1
 EventShowGrave1.button1,Button1
 EventShowGrave3.button1,Button1
 EventShowGrave2.button1,Button1
-TokenEttinTreasure.text,In the mouldy leaves
-TokenEttinTreasure.button1,Continue
+TokenViewThroughTrees.button1,Continue
+DoorGraveyard.text,Thick vines bar your way.
 TokenGraveyard1.text,An old, crumbling tomb lies half buried in the mud.\n\nAs an action, an adjacent hero may open it.
 TokenGraveyard1.button1,Open
 EventActionGrave1.text,As you open the tomb, a cloud of foul spirits rises out of the earth.
 EventActionGrave1.button1,Continue
-SpawnZombies.text,Figures of old bones covered in slime and twigs come to life.\n\nPlace a {type} group at the indicated space.
+SpawnZombies.text,Figures of old bones covered in slime and twigs rise up out of the ground.\n\nPlace a {type} group at the indicated space.
 SpawnZombies.button1,Continue
 TokenPath7.text,A narrow path winds between twisted, darkened trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. \n\nYou may use the roll of any hero that has taken the path already (either Pass or Fail).
 TokenPath7.button1,Pass
@@ -129,3 +127,67 @@ EventShowPool.text,As you head down the path, you quickly lose sight of the othe
 EventShowPool.button1,Continue
 EventActionPath7Fail.text,Place your hero on the indicated space.
 EventActionPath7Fail.button1,Continue
+SpawnMedusa.text,As you step out into the clearing, snake like figures come down from the trees.\n\nPlace a {type} group on the space indicated.
+SpawnMedusa.button1,Continue
+TokenGraveyard2.text,An old, crumbling tomb lies half buried in the mud.\n\nAs an action, an adjacent hero may open it.
+TokenGraveyard2.button1,Open
+TokenGraveyard4.text,An old, crumbling tomb lies half buried in the mud.\n\nAs an action, an adjacent hero may open it.
+TokenGraveyard4.button1,Open
+TokenGraveyard3.text,An old, crumbling tomb lies half buried in the mud.\n\nAs an action, an adjacent hero may open it.
+TokenGraveyard3.button1,Open
+SpawnShamblingMonster.uniquetitle,Shambling Dead
+SpawnShamblingMonster.uniquetext,-
+SpawnShamblingMonster.text,As you open the tomb, a putrid stench makes you recoil. A shambling corpse, swollen with bugs and worms, looks hungrily at you.\n\nPlace an elite {type} on the indicated space.
+SpawnShamblingMonster.button1,Continue
+EventActionGrave2.button2,Leave it
+EventActionGrave2.button1,Take it
+EventActionGrave2.text,Inside the tomb you find the remains of a figure, wrapped up in tattered robes. The hands clutch a leather-bound parcel onto his chest. You wonder what is inside the parcel
+EventFindRelic.text,"You slowly remove the leather from an ancient book, still in good condition, with stars radiating on its cover. \n\nClaim the relic ""Book of Stars"""
+EventFindRelic.button1,Continue
+EventActionGrave4.text,Whilst the tomb is mostly filled with mud and worms, you do see something that may be of interest.\n\nDraw a Search card.
+EventActionGrave4.button1,Continue
+EventGameBuildMap.text,Set aside tiles xxxx.\n\nBuild the map as shown.\nNote that all green doors are forest walls.\n\nFrom the Search deck, remove None, Secret Room and Treasure Chest.
+TokenViewThroughTrees.text,Through the trees you spy another clearing, now how to get there.
+DoorGraveyard.button1,Cut them down
+TokenWitch2.text,Through the trees you can make out an old women.
+TokenWitch2.button1,Continue
+EventHideWitch2.text,As you cut through the vines, the figure disappears deeper into the swamp.
+EventHideWitch2.button1,Continue
+EventShowGraveyard.text,Build the map as shown
+EventShowWitch2.text,Through the trees you can make out an old women.
+EventShowWitch2.button1,Continue
+SpawnGoblinArchers2.button1,Continue
+SpawnGoblinArchers2.text,In hearing a noise, goblins break out from the undergrowth.\n\nPlace a {type} group on the indiciated space.
+TokenShowClearing.text,You spy a narrow path through the thick trees.\n\nAs an action, an adjacent hero may follow the path. \nTest {awareness} to stay on the path. 
+TokenShowClearing.button1,Pass
+EventShowNorthCamp.text,Build the map as shown.
+EventShowNorthCamp.button1,Continue
+TokenShowClearing.button2,Fail
+TokenWitch3.text,An old women dressed in rags with twigs and sticks in her hair.
+TokenWitch3.button1,Continue
+EventHideWitch3.text,As you come close to her, she slips behind a tree only to not appear on the other side.\n\nWhere did she go?
+EventHideWitch3.button1,Continue
+SpawnUniqueEttin.uniquetext,An ettin, covered in moss and swamp tiwgs, raises it head and spies fresh food.\n\nPlace an elite {type} on the indicated space.
+SpawnUniqueTroll.text,Through the trees is a clearing in the swamp. In the clearing sits a massive forest troll, covered in mud and slime, and eating the remains of some rotten carcass. It looks up at you and you can see joyous hunger in its eyes.\n\nPlace {type} on the indicated space.
+SpawnUniqueTroll.uniquetitle,Forest Troll
+SpawnUniqueTroll.button1,Continue
+TokenSearch1.text,A small mound of trinkets lies half buried in the swampy water. Presumably the remains of the troll's victims.
+TokenSearch1.button1,Search
+EventActionSearch1.text,Draw a Search card.
+EventActionSearch1.button1,Continue
+TokenSearch2.text,A small mound of trinkets lies half buried in the swampy water. Presumably the remains of the troll's victims.
+TokenSearch2.button1,Continue
+EventActionSearch2.text,Draw a Search card.
+EventActionSearch2.button1,Continue
+SpawnGoblinShaman.button1,Continue
+EventShowGarden.text,As you push aside the roses, a thick cloud of sweet smelling pollen fills the air.\n\nAll heroes within 2 spaces of the door must test {will} or be Stunned.
+SpawnGoblinShaman.text,In the water and trees around the forest troll, you can see goblin shaman. It almost appears as if it is their pet!\n\nPlace a single {type} on each of the indicated spaces.
+SpawnWormsFromGarden.button1,Continue
+EventShowWitchesHut.text,The vines part to reveal an old though well maintained wooden hut. Fire light flickers from within and various smells assault your nose.
+SpawnWormsFromGarden.text,Diseased worms rise up out of the swamp.\n\nPlace a {group} on the indicated space.
+EventShowWitchesHut.button1,Continue
+TokenWitch4.text,An old crone in rags ...
+TokenWitch4.button1,Continue
+EventGameEnd.button1,End
+UIWitchesHut.text,xxx
+EventGameEnd.text,You enter the hut cautiously, expecting the crone to disappear again. This time she simply smiles and points to some worn wooden chairs.
